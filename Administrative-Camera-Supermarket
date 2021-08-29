@@ -139,12 +139,12 @@
 				<context>
 					<situation-dependencies>
 						<case>
-							<situation>playing-music</situation>
-							<action>Keep-Playing-Music<until>User-Stops</until></action>	
+							<situation>assisting-user</situation>
+							<action>Assist-User<within>Time-Frame</within></action>	
 						</case>
 						<case>
-							<situation>telling-jokes</situation>
-							<action>Keep-Telling-Jokes<until>User-Stops</until></action>	
+							<situation>observing-user</situation>
+							<action>Observe-User<within>Time-Frame</within></action>	
 						</case>
 					</situation-dependencies>
 				</context>
